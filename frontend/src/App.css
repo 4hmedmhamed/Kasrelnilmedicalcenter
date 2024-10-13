@@ -1,0 +1,311 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Changa:wght@200..800&family=Noto+Nastaliq+Urdu:wght@400..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+    text-decoration: none;
+    font-family: "Cairo", sans-serif;
+    /* font-optical-sizing: 20px; */
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+      /* text-shadow: rgb(219, 219, 217) 3px 0 12px; */
+   
+}
+
+html,
+body {
+  /* max-width: 100vw; */
+direction: rtl;
+overflow-x: hidden;
+
+}
+
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+/* 
+ */
+
+ .input-connect{
+  outline: none;
+  border:  1px solid  rgb(78, 78, 78);
+  padding: 10px;
+  border-radius:  4px;
+  width: 100%;
+ }
+ .input-connect-text{
+  outline: none;
+  border:  1px solid  rgb(78, 78, 78);
+  border-radius:  4px;
+  width: 100%;
+  height: 100px;
+ }
+
+ .connect-button{
+  padding: 10px 50px;
+  border-radius: 20px;
+  background-color: #5552e4;
+  border: none;
+ }
+/* Nav-bar */
+
+.Nav-bar{
+  background-color: #380751;
+  height: 100px;
+  /* overflow: hidden; */
+}
+.nav-item{
+  color: #ffffff;
+  font-weight: 500;
+  text-decoration: none;
+}
+.nav-item:hover{
+  border-bottom: #f3e40b 2px solid;
+}
+.side-bar{
+  background-color :#380751;
+  /* width: 80px; */
+  /* max-width: 400px; */
+  /* margin-top: 100px; */
+  /* height: 100vh; */
+}
+
+/* banner */
+
+.main_div{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  /* background-color: aqua; */
+}
+.imgbanner{
+  width: 100%;
+  filter: blur(100%);
+  position: absolute;
+}
+
+.frist_banner{
+  width: 60%;
+  position: absolute;
+  height: 100vh;
+  background: rgba(96, 43, 156, 0.815);
+  border-radius: 37% 0% 0% 39% / 48% 25% 25% 52%;
+  z-index: 100;
+}
+.sec-banner{
+  width: 100%;
+  /* margin-right: 10%; */
+  position: absolute;
+  height: 60vh;
+  background: rgba(96, 43, 156, 0.815);
+  border-radius:100% 0% 100% 0% / 0% 22% 78% 100% ;
+}
+
+.title-banner-main{
+    width: 100%;
+    /* margin-right: 10%; */
+    position: absolute;
+    height: 95vh;
+    /* background: rgb(255, 255, 255); */
+    z-index: 1000;
+}
+
+
+.title-banner{
+  /* margin-top: 100px; */
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing:53px;
+  font-weight: 500;
+
+    color: #ffffff;
+    text-shadow: rgb(100, 28, 122) 3px 0 12px;
+    font-size: 50px;
+    /* text-shadow: rgb(241, 216, 103) 1px 0 6px; */
+}
+.title-bnner-seconed{
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+    text-decoration: none;
+    color: #eee9f0;
+    text-shadow: rgb(88, 88, 84) 3px 0 12px;
+    font-size: 31px;
+}
+.title-banner-third{
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+    text-decoration: none;
+    color: #f3f3f0;
+    text-shadow: rgb(100, 100, 99) 3px 0 12px;
+}
+/* serves */
+.Oursrvies{
+
+  height: 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.icon-serves{
+width: 100px;
+height: 100px;
+font-size: 70px;
+text-align: center;
+background-color: #380751;
+color: #fafafa;
+border-radius: 50%;
+margin-right: 40%;
+
+}
+.shadow-our{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+.title-serves{
+  color: #380751;
+  text-shadow: #5552e4 1px 1px;
+  /* font-size: 40px; */
+  /* font-weight: 800; */
+}
+.tabell{
+  width: 95% ;
+  height: auto;
+   border: 1px solid rgb(226, 222, 222);
+   position: relative;
+   animation-name: example;
+   animation-duration: 10s;  
+   animation-fill-mode: forwards;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+  }
+  @keyframes example {
+    0% {right: 0px;box-shadow: 10px 5px 5px rgb(105, 103, 103);}
+    50% {right: 30px; box-shadow: 13px 7px 7px rgb(214, 211, 211);}
+    100% {right: 0px;box-shadow: 10px 5px 5px  rgb(105, 103, 103);}
+  }
+.tabell1{
+  width: 95% ;
+  height: auto;
+  /* background-color: #380751;
+   */
+   border: 1px solid rgb(248, 247, 247);
+   /* background: red; */
+   position: relative;
+   animation-name: example2;
+   animation-duration: 10s;  
+   animation-fill-mode: forwards;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+
+@keyframes example2 {
+  0% {right: 30px; box-shadow: 13px 7px 7px rgb(214, 211, 211);}
+  50% {right: 0px;box-shadow: 10px 5px 5px rgb(105, 103, 103);}
+  100% {right: 30px; box-shadow: 13px 7px 7px rgb(214, 211, 211);}
+}
+
+
+
+
+.tabell2{
+  width: 100px ;
+  height: 100px;
+  background-color: #c2eb0f;
+  border-radius: 50%;
+
+
+}
+
+
+.tabell3{
+  width: 95% ;
+  height: auto;
+   border: 1px solid rgb(226, 222, 222);
+   position: relative;
+   animation-name: example3;
+   animation-duration: 10s;  
+   animation-fill-mode: forwards;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+  }
+  @keyframes example3 {
+    0% {right: 0px;box-shadow: 10px 5px 5px rgb(105, 103, 103);}
+    50% {right: 30px; box-shadow: 13px 7px 7px rgb(214, 211, 211);}
+    100% {right: 0px;box-shadow: 10px 5px 5px  rgb(105, 103, 103);}
+  }
+.tabell4{
+  width: 95% ;
+  height: auto;
+  /* background-color: #380751;
+   */
+   border: 1px solid rgb(248, 247, 247);
+   /* background: red; */
+   position: relative;
+   animation-name: example4;
+   animation-duration: 10s;  
+   animation-fill-mode: forwards;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+
+@keyframes example4 {
+  0% {right: 30px; box-shadow: 13px 7px 7px rgb(214, 211, 211);}
+  50% {right: 0px;box-shadow: 10px 5px 5px rgb(105, 103, 103);}
+  100% {right: 30px; box-shadow: 13px 7px 7px rgb(214, 211, 211);}
+}
+.title-about{
+  color: #380751;
+  font-weight: 1000;
+  
+}
+.icon-right{
+  color: #1b7a08;
+  font-size: 20px;
+}
+.text-about{
+  font-weight: 900;
+}
+.title-advantages{
+  font-weight: 900;
+  color: #5d118a;
+
+  text-shadow: rgb(179, 177, 175) 1px 0 10px;
+}
+
+.text-advantages{
+  font-weight: 700;
+  color: #282729;
+}
+
+.customer-write{
+  width: 75%;
+  height: 260px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #282729;
+}
+
+
+.up{
+  background-color: #282729;
+  width: 105px;
+  height: 200px;
+}

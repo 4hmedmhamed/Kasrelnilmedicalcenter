@@ -105,7 +105,7 @@ const AppointmentForm = () => {
               placeholder="First Name"
               value={firstName}
               onChange={(e) => setFirstName(e.target.value)}
-              className="form-control"
+              className="form-control m-1"
             />
               </div>
               <div className="col-md-6">
@@ -115,7 +115,7 @@ const AppointmentForm = () => {
               placeholder="Last Name"
               value={lastName}
               onChange={(e) => setLastName(e.target.value)}
-               className="form-control"
+               className="form-control m-1"
             />
               </div>
               <div className="col-md-6">
@@ -124,7 +124,7 @@ const AppointmentForm = () => {
               placeholder="Email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-               className="form-control"
+               className="form-control m-1"
             />
               </div>
               <div className="col-md-6">
@@ -133,7 +133,7 @@ const AppointmentForm = () => {
               placeholder="Mobile Number"
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
-               className="form-control"
+               className="form-control m-1"
             />
               </div>
               <div className="col-md-6">
@@ -142,7 +142,7 @@ const AppointmentForm = () => {
               placeholder="NIC"
               value={nic}
               onChange={(e) => setNic(e.target.value)}
-               className="form-control"
+               className="form-control m-1"
             />
               </div>
               <div className="col-md-6">
@@ -151,7 +151,7 @@ const AppointmentForm = () => {
               placeholder="Date of Birth"
               value={dob}
               onChange={(e) => setDob(e.target.value)}
-               className="form-control"
+               className="form-control m-1"
             />
               </div>
               <div className="col-md-6">
@@ -163,13 +163,12 @@ const AppointmentForm = () => {
             </select>
               </div>
               <div className="col-md-6">
-                ss
             <input
               type="date"
               placeholder="Appointment Date"
               value={appointmentDate}
               onChange={(e) => setAppointmentDate(e.target.value)}
-              className="form-control"
+              className="form-control m-1"
             />
               </div>
           <div className="col-md-6">
@@ -201,7 +200,7 @@ const AppointmentForm = () => {
                 setDoctorLastName(lastName);
               }}
               disabled={!department}
-              className="form-select"
+              className="form-select m-1"
             >
               <option value="">Select Doctor</option>
               {doctors
@@ -223,25 +222,23 @@ const AppointmentForm = () => {
             value={address}
             onChange={(e) => setAddress(e.target.value)}
             placeholder="Address"
-            className="form-control"
+            className="form-control m-1"
           />
           </div>
           <div
-            style={{
-              gap: "10px",
-              justifyContent: "flex-end",
-              flexDirection: "row",
-            }}
+      
+            className="d-flex m-3"
           >
-            <p style={{ marginBottom: 0 }}>Have you visited before?</p>
             <input
               type="checkbox"
               checked={hasVisited}
               onChange={(e) => setHasVisited(e.target.checked)}
-              style={{ flex: "none", width: "25px" }}
+              style={{ flex: "none", width: "15px" }}
+              className="m-1"
             />
+            <p style={{ marginBottom: 0 }}>Have you visited before?</p>
           </div>
-          <button className="btn btn-primary" >GET APPOINTMENT</button>
+          <button className="btn btn-primary m-2" >GET APPOINTMENT</button>
       </div>
         </form>
 

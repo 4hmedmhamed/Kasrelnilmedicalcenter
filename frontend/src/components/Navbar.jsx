@@ -29,12 +29,8 @@ function OffCanvasExample({ name, ...props }) {
           <Offcanvas show={show} onHide={handleClose} {...props} style={{ backgroundColor: "#360851 ", width: "80%" , color :"#ffff"}} className="side-bar">
               <Offcanvas.Header closeButton>
                   <div className='w-100'>
-{/* 
-                      <Image
-                          src={Logo}
-                          width={200}
-                          height={70}
-                      /> */}
+
+
                          <img src={Logo}  style={{width:"200px" ,height:"70px"}}/>
                   </div>
               </Offcanvas.Header>
@@ -59,7 +55,7 @@ function OffCanvasExample({ name, ...props }) {
                                       <Link to={'/video'} className='nav-item fs-5 m-5'>video</Link>
                                   </div>
                       <div className='m-3 border-bottom'>
-                          <Link to={'/connet'} className='nav-item fs-5 m-3 ' >تواصل معنا</Link>
+                          <Link to={'/Connect'} className='nav-item fs-5 m-3 ' >تواصل معنا</Link>
                       </div>
                   </div>
               </Offcanvas.Body>
